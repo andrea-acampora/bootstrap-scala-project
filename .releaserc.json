@@ -35,7 +35,9 @@
       "npmPublish": false
     }],
     ["@semantic-release/github", {
-      "assets": []
+      "assets": [
+        {"path": "target/scala-3.1.1/scala-project.jar", "label": "Fat Jar"}
+      ]
     }],
     ["@semantic-release/git", {
       "assets": ["package.json"],
