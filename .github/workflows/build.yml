@@ -19,4 +19,4 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Run test and coverage
-      run: sbt clean test
+      run: sbt clean test jacoco
