@@ -1,4 +1,4 @@
-val scala3Version = "3.4.1"
+val scala3Version = "3.4.3"
 lazy val startupTransition: State => State = "writeHooks" :: _
 
 lazy val root = project
